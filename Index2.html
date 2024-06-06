@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <html lang="ru">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Организация Спортивного Турнира</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="logo">
+        <img src="logo.jpg" alt="UFC Logo">
+      </div>
+      <header>
+        <h1>Сдедующие турниры!</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="nav-button">Главная</a></li>
+            <li><a href="#turnir" class="nav-button">О Турнире</a></li>
+            <li><a href="index3.html" class="nav-button">Регистрация</a></li>
+            <li><a href="index4.html" class="nav-button">Контакты</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Описание о турнире -->
+      <section id="about" class="section">
+         <h1>О турнире</h1>
+  <p>Наш невероятный турнир по смешанным единоборствам состоится в крупнейшем городе России - Черемхове. Турнир пройдет на легендарной арене "ВТБ Арена" 25 декабря 2024 года.</p>
+  <p>Мы приглашаем всех желающих испытать свои силы и стать частью захватывающего спортивного события. Независимо от вашего уровня подготовки или опыта, мы приветствуем всех, кто разделяет нашу страсть к единоборствам.</p>
+  <p>Участники будут соревноваться в различных весовых категориях, а победители получат денежные призы и признание в мире спорта. Кроме того, всех участников ждет незабываемый опыт, который останется с ними на всю жизнь.</p>
+      </section>
+
+      <!-- Слайдер с картинками турниров -->
+      <section id="turnir" class="section3">
+    <div class="slider">
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <div class="slides">
+            <div class="slide" data-text="UFS FIGHT NIGHT на 18.05.24 год.">
+              <img src="turnir1.jpg" alt="Турнир 1">
+            </div>
+            <div class="slide" data-text="UFS-300 на 14.04.24 год.">
+              <img src="turnir2.jpg" alt="Турнир 2">
+            </div>
+            <div class="slide" data-text="UFS FIGHT NIGHT на 06.04.24 год.">
+              <img src="turnir3.jpg" alt="Турнир 3">
+            </div>
+            <div class="slide" data-text="UFS FIGHT NIGHT на 31.03.24 год.">
+              <img src="turnir4.jpg" alt="Турнир 4">
+            </div>
+          </div>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        <div class="slider-text"></div>
+    </div>
+</section>
+
+
+      <footer>
+        <h2>&copy; 2024 UFC Турнир. Все права защищены.</h2>
+      </footer>
+
+      <script src="script.js"></script>
+    </body>
+    </html>
